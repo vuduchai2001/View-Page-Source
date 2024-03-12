@@ -40,6 +40,7 @@ webpackJsonp(
                 "written in pure HTML",
                 "Now you can try",
                 "Open 'View Page Source'",
+                "And see the magic :D",
               ],
               t = new ((function () {
                 function e(t) {
@@ -141,7 +142,7 @@ webpackJsonp(
               return t("div", { staticClass: "container" }, [
                 t("div", { staticClass: "description" }, [
                   this._v(
-                    "\n    This is project is demo how to prevents user from View Page Source.\n  "
+                    "\n    This is my demo project of how to prevents user from View Page Source.\n  "
                   ),
                 ]),
                 this._v(" "),
