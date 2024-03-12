@@ -139,7 +139,11 @@ webpackJsonp(
               var e = this.$createElement,
                 t = this._self._c || e;
               return t("div", { staticClass: "container" }, [
-                t("div", { staticClass: "description" }, [this._v("\n\n")]),
+                t("div", { staticClass: "description" }, [
+                  this._v(
+                    "\n    This is project is demo how to prevents user from View Page Source.\n  "
+                  ),
+                ]),
                 this._v(" "),
                 t("div", { staticClass: "text" }),
               ]);
