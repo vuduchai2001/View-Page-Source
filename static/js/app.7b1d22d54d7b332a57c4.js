@@ -139,11 +139,7 @@ webpackJsonp(
               var e = this.$createElement,
                 t = this._self._c || e;
               return t("div", { staticClass: "container" }, [
-                t("div", { staticClass: "description" }, [
-                  this._v(
-                    "\n    This is my demo project of how Twitter prevents user from View Page Source.\n  "
-                  ),
-                ]),
+                t("div", { staticClass: "description" }, [this._v("\n\n")]),
                 this._v(" "),
                 t("div", { staticClass: "text" }),
               ]);
