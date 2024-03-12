@@ -35,7 +35,7 @@ webpackJsonp(
           mounted: function () {
             var e = [
                 "Hello :),",
-                "My name is Vu Duc Hai (작은 바다)",
+                "My name is Vu Duc(작은 바다)",
                 "You're in my homepage",
                 "written in pure HTML",
                 "Now you can try",
