@@ -34,7 +34,7 @@ webpackJsonp(
         f = {
           mounted: function () {
             var e = [
-                "Hello :),",
+                `Hello ${localStorage.getItem("user") || ":))"}`,
                 "My name is Vu Duc Hai (작은 바다)",
                 "You're in my homepage",
                 "written in pure HTML",

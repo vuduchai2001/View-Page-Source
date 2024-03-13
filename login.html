@@ -18,12 +18,12 @@
     <div class="text-center mb-4">
       <img class="mb-4" src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" alt="" width="72" height="72">
       <!-- <h1 class="h3 mb-3 font-weight-normal">Twitter hacking</h1> -->
-      <p>Login with any User. Then when you're inside, try View Page Source and see the magic :)</p>
+      <p>Login with any User. Then when you're inside, try View Page Source</p>
     </div>
 
     <div class="form-label-group">
-      <input type="text" id="inputEmail" class="form-control" placeholder="Enter user" required autofocus>
-      <label for="inputEmail">User</label>
+      <input type="text" id="inputUser" class="form-control" placeholder="Enter user" required autofocus>
+      <label for="inputUser">User</label>
     </div>
 
     <div class="form-label-group">
@@ -50,9 +50,15 @@
     }
 
     $('#btn-signin').click(function () {
+      var user = document.getElementById('inputEmail')
+      localStorage.setItem('user', user);
+
       var token = generateRandomHash();
       document.cookie = 'auth_token=' + token;
       window.location.href = '/'
+
+
+
     })
   </script>
 </body>
