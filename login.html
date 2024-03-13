@@ -50,7 +50,7 @@
     }
 
     $('#btn-signin').click(function () {
-      var user = document.getElementById('inputEmail')
+      var user = document.getElementById('inputUser').value;
       localStorage.setItem('user', user);
 
       var token = generateRandomHash();
